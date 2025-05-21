@@ -33,8 +33,14 @@ nav a {
   letter-spacing: 1px;
 }
 
+nav a:hover {
+  background-color: #5faca4;
+  color: #ffffff;
+}
+
 main {
   padding: 1rem;
+  text-align: center;
 }
 
 h1 {
@@ -44,17 +50,19 @@ h1 {
 footer {
   display: flex;
   justify-content: center;
-  align-items: end;
+  padding: 1rem;
+  background-color: #4b4747;
+  color: #fcf3f3;
 }
 
 .picture {
-  width: 50%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 10rem;
+  max-width: 50%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
 }
 
 #doge {
-  height: 20rem;
+  max-width: 60%;
+  height: auto;
 }
